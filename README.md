@@ -2,8 +2,8 @@ ieproxy
 =======
 
 A Windows batch script for outputting or modifying proxy settings for Internet
-Explorer. This is achieved by using the Windows REG command to modify registry
-settings.
+Explorer via the command line. This is achieved by using the Windows REG
+command to modify registry settings.
 
 Usage
 -----
