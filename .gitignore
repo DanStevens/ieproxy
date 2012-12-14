@@ -1,0 +1,8 @@
+/Debug
+/Release/*.pdb
+/ieproxy/Debug
+/ieproxy/Release
+/ieproxy/ieproxy.vcxproj.user
+/ieproxy.opensdf
+/ieproxy.sdf
+/ieproxy.suo

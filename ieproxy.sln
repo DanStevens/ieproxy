@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ieproxy", "ieproxy\ieproxy.vcxproj", "{2F7DCDFE-E640-45D2-910A-13BD0A108B71}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{13BB1362-9689-4910-A9B1-EDF323BCFEE3}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F7DCDFE-E640-45D2-910A-13BD0A108B71}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2F7DCDFE-E640-45D2-910A-13BD0A108B71}.Debug|Win32.Build.0 = Debug|Win32
+		{2F7DCDFE-E640-45D2-910A-13BD0A108B71}.Release|Win32.ActiveCfg = Release|Win32
+		{2F7DCDFE-E640-45D2-910A-13BD0A108B71}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
