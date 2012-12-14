@@ -12,15 +12,15 @@ ieproxy::ProxySettings::ProxySettings(void) :
 { }
 
 ieproxy::ProxySettings::ProxySettings(const char* serverAddress, bool bypassLocal, const char* bypassAddresses,
-        const char* autoConfigScriptAddress, bool autoDetectSettings) :
-    _proxyServer(serverAddress),
-    _proxyBypassLocal(bypassLocal),
-    _autoConfigScriptAddress(autoConfigScriptAddress),
-    _autoDetect(autoDetectSettings)
+        const char* autoConfigScriptAddress, bool autoDetectSettings)
 {
-    this->_proxyEnabled = !this->_proxyServer.empty();
-    this->_autoConfigEnabled = !this->_autoConfigScriptAddress.empty();
-    this->ProxyBypassAddressList(bypassAddresses);
+    ProxyServer(serverAddress);
+    ProxyBypassLocalAddresses(bypassLocal);
+    AutoConfigScriptAddress(autoConfigScriptAddress);
+    AutoDetectSettings(autoDetectSettings);
+    ProxyEnabled(!_proxyServer.empty());
+    AutoConfigEnabled(!_autoConfigScriptAddress.empty());
+    ProxyBypassAddressList(bypassAddresses);
 }
 
 void ieproxy::ProxySettings::ProxyBypassAddressList(const char* value)
