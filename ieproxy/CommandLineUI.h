@@ -2,7 +2,6 @@
 #include "stdafx.h"
 #include "ProxySettings.h"
 
-
 #define VERSION "0.1.0"
 #define YES "Yes"
 #define NO  "No"
@@ -11,7 +10,6 @@
 
 namespace ieproxy
 {
-	
 
 	namespace po = boost::program_options;
 
@@ -19,8 +17,6 @@ namespace ieproxy
 	{
 
 	private:
-		//static const int _shortNameCode = 4;
-		//static const int _longNameCode = 0;
 
 		const char* _ieproxy;
 		std::ostream& _cout;

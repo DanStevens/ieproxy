@@ -116,7 +116,7 @@ Copyright & License
 
 Copyright © Dan Stevens 2012
 
-The software and its source code is licensed under the term sof the
+The software and its source code is licensed under the terms of the
 Boost Software License, Version 1.0. See accompanying file *LICENSE.txt*.
 
 
