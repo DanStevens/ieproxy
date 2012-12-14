@@ -1,6 +1,10 @@
-#include "StdAfx.h"
+// Copyright © Dan Stevens 2012
+// 
+// Distributed under the terms of the Boost Software License, Version 1.0.
+// See accompanying file *LICENSE.txt*.
+//
+#include "stdafx.h"
 #include "CommandLineUI.h"
-#include "ieproxy_api.h"
 
 ieproxy::CommandLineUI::CommandLineUI(std::ostream& cout, std::ostream& cerr) :
     _cout(cout), _cerr(cerr), _optDesc("Options")
@@ -29,7 +33,6 @@ ieproxy::CommandLineUI::CommandLineUI(std::ostream& cout, std::ostream& cerr) :
         ("version", "Show version information and attributions")
     ;
 }
-
 
 ieproxy::CommandLineUI::~CommandLineUI(void)
 {

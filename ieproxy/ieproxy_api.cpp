@@ -1,3 +1,8 @@
+// Copyright © Dan Stevens 2012
+// 
+// Distributed under the terms of the Boost Software License, Version 1.0.
+// See accompanying file *LICENSE.txt*.
+//
 #include "stdafx.h"
 #include "ieproxy_api.h"
 
